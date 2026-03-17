@@ -1,0 +1,7 @@
+﻿services:
+  dotnetpersonapi:
+    image: dotnetpersonapi
+    build:
+      context: .
+      dockerfile: DotnetPersonAPI/Dockerfile
+
