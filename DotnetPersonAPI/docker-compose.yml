@@ -1,0 +1,15 @@
+﻿services:
+  postgres:
+    image: postgres:16
+    container_name: dotnetpersonapi-postgres
+    environment:
+      POSTGRES_DB: persondb
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: apppass123
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
