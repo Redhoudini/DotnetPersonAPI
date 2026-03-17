@@ -42,13 +42,22 @@ docker compose -f docker-compose.yml up -d
 ```bash
 dotnet ef database update
 ```
+```md
+PostgreSQL runs on port:
+
+- localhost:5433
+```
 
 ### 3. Run the API
 
 ```bash
 dotnet run
 ```
+The API runs locally on:
 
+- http://localhost:5007
+
+- https://localhost:7089
 ## Endpoints
 
 ### Get all people
