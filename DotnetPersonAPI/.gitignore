@@ -21,6 +21,7 @@ Thumbs.db
 
 # Docker override (valgfri)
 docker-compose.override.yml
+compose.yaml
 
 # EF Core
 Migrations/*.Designer.cs
